@@ -65,7 +65,7 @@ module.exports = {
 scripts > dev 수정
 ```json
 {
-  "name": "webpack-react",
+  "name": "webpack-beginner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -228,7 +228,7 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: 'development',
     devtool: 'eval',
     resolve: {
@@ -307,7 +307,7 @@ You may need an appropriate loader to handle this file type, currently no loader
  @ ./src/Root.js 2:0-21
  @ ./src/index.js 3:0-26 4:50-54
 
-webpack-react (webpack 5.73.0) compiled with 1 error in 3009 ms
+webpack-beginner (webpack 5.73.0) compiled with 1 error in 3009 ms
 ```
 
 ### css-loader 적용
@@ -317,7 +317,7 @@ const path = require("path");
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: 'development',
     devtool: 'eval',
     resolve: {
@@ -371,7 +371,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: 'development',
     devtool: 'eval',
     resolve: {
@@ -464,7 +464,7 @@ You may need an appropriate loader to handle this file type, currently no loader
  @ ./src/Root.js 3:0-22
  @ ./src/index.js 3:0-26 4:50-54
 
-webpack-react (webpack 5.73.0) compiled with 1 error in 3382 ms
+webpack-beginner (webpack 5.73.0) compiled with 1 error in 3382 ms
 ```
 
 
@@ -477,7 +477,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: 'development',
     devtool: 'eval',
     resolve: {
@@ -539,7 +539,7 @@ const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: "development",
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -611,7 +611,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: "development",
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -681,7 +681,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: "development",
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -749,7 +749,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    name: "webpack-react",
+    name: "webpack-beginner",
     mode: "production",
     resolve: {
         extensions: ['.js', '.jsx'],
@@ -805,7 +805,7 @@ module.exports = {
 ``./package.json`` 수정
 ```json
 {
-  "name": "webpack-react",
+  "name": "webpack-beginner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -838,6 +838,15 @@ module.exports = {
 
 ```
 
+### 테스트!!
+http://192.168.25.27:9000/
+```
+npm run build
+```
+
+```
+npm run start
+```
 
 
 
