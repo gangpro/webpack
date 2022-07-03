@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# package-lock.json
+package-lock.json
+
+# Dependency directories
+node_modules
+
+# Compile
+dist
